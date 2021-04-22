@@ -1,0 +1,100 @@
+<!-- Personal portfolio page based on the tutorial "Build a Responsive Online Portfolio from scratch!" by Ania Kubow-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Christina Schramm</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="hero">
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger-menu" id="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div class="hero-area">
+            <div class="hero-text">
+                <h1>Christina Schramm</h1>
+                <p>B.Sc. Information Technology</p>
+                <p>M.A. Linguistic</p>
+                <div class="button"><a href="#about-me">About me</a></div>
+            </div>
+            <div class="socials">
+                <div>
+                    <a href="https://www.linkedin.com/in/christina-schramm/" target="_blank" class="social">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/Momiti" target="_blank" class="social">
+                        <i class="fab fa-github-square fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <section class="sub-section" id="about-me">
+        <div class="information">
+            <h2>About Me</h2>
+            <p>Hello! My name is Christina Schramm. I recently graduated with a bachelor in Information Technology.</p>
+            <p>I have a passion for languages and learning new things.</p>
+        </div>
+        <div class="photo-container">
+            <img class="photo" src="images/christina_schramm.JPG" alt="Christina Schramm headshot">
+        </div>
+    </section>
+    <section class="sub-section-alternative" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img class="project-image" src="images/HealthyFoodFinder.png" alt="Project one image"/>
+                <h3>Healthy Food Finder</h3>
+                <p class="subtext">Designing an app for finding healthy food in the store.</p>
+                <hr>
+                <p class="subtext"><a class="project-link" href="https://github.com/Momiti" target="_blank">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="images/planteasy.jpg" alt="Project two image"/>
+                <h3>Planteasy</h3>
+                <p class="subtext">Designing an app for taking care of all your plants at home.</p>
+                <hr>
+                <p class="subtext"><a class="project-link" href="https://github.com/Momiti" target="_blank">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="images/gameOfLife.png" alt="Project three image"/>
+                <h3>Game of Life - A Simulation</h3>
+                <p class="subtext">Creating Conway's Game of Life Simulation using JavaScript.</p>
+                <hr>
+                <p class="subtext"><a class="project-link" href="https://github.com/Momiti" target="_blank">View here</a></p>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <div>
+            <a href="https://www.linkedin.com/in/christina-schramm/" class="social">
+                <i class="fab fa-linkedin fa-5x"></i>
+            </a>
+        </div>
+        <div>
+            <a href="https://github.com/Momiti" class="social">
+                <i class="fab fa-github-square fa-5x"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>
